@@ -137,13 +137,12 @@ h1, p, img, div {
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
-  justify-content: center;
+  justify-content: space-between;
   width:1100px;
 }
 .table__cell {
   width: 250px;
   margin-top: 60px;
-  margin-bottom: 60px;
 }
 .table__heading {
   line-height: 1.15;
@@ -155,6 +154,71 @@ h1, p, img, div {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin-top: 20px;
+}
+.feynman {
+  margin-top: 100px;
+  position: relative;
+  height: 790px;
+}
+.feynman__title {
+  width: 648px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 70px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+}
+.feynman__subtitle {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+.feynman__img {
+  position: absolute;
+  width: 867px;
+  height: 637px;
+  z-index:-1;
+  left:0;
+  bottom:0;
+
+}
+.feynman__link {
+  position: absolute;
+  height: 50% ;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  right: 0;
+}
+.kaufman {
+  position: relative;
+  overflow: hidden;
+  background-color:#1f1f1f;
+
+}
+.kaufman__triangle {
+  position: absolute;
+  right:-210px;
+  top:0;
+  width: 877px;
+  height: 877px;
+}
+.section-title_theme_dark {
+  margin-top: 90px;
+  color: white;
+}
+.section-subtitle_theme_dark {
+  color: white;
+}
+
+.table_theme_dark {
+ margin-bottom: 90px;
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -162,4 +226,35 @@ h1, p, img, div {
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 1;
+}
+.footer {
+  background-color: #1f1f1f;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  min-height: 350px;
+}
+.footer__columns {
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+.footer__column_content_copyright{
+  flex-basis: 711px;
+}
+.logo__place_footer {
+  width: 183px;
+  height:35px;
+}
+.footer__author {
+  color: white;
+  position: absolute;
+  margin-bottom: 18px;
+  margin-top: 18px;
+  bottom:0;
+  left:0;
 }
