@@ -28,7 +28,7 @@ h1, p, img, div {
 }
 .header__title {
   position: relative;
-  display: flex ;
+  display: flex;
   align-items: center;
   left: 64px;
   width: 730px;
@@ -97,11 +97,11 @@ h1, p, img, div {
 }
 .two-columns__paragraph {
   line-height: 34px;
-  font-size:24px;
+  font-size: 24px;
   font-weight: normal;
   margin-bottom: 30px;
 }
-.two-columns__paragraph: :last-of-type{
+.two-columns__paragraph: :last-of-type {
   margin-bottom: 0;
 }
 .two-columns__span-accent {
@@ -191,7 +191,7 @@ h1, p, img, div {
 }
 .feynman__link {
   position: absolute;
-  height: 50% ;
+  height: 50%;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -220,7 +220,7 @@ h1, p, img, div {
 }
 .table__cell_theme_dark {
   width: 200px;
-  color: white; 
+  color: white;
   z-index: 1;
   margin-top: 80px;
 }
@@ -235,7 +235,7 @@ h1, p, img, div {
   margin-right: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between; 
+  justify-content: space-between;
   min-height: 350px; 
 }
 .footer__column_content_copyright{
