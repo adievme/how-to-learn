@@ -6,3 +6,10 @@
   opacity: 0.4;
   transition: opacity 0.5s linear;
   }
+
+@media screen and (max-width: 1024px) {
+  .header__link {
+    color:#f2f2f2;
+  }
+}
+

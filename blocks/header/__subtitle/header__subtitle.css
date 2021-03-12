@@ -1,11 +1,23 @@
 .header__subtitle {
     position: absolute;
-    max-width:388px;
+    max-width: 388px;
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
-    bottom: 30px;
-    left: 64px;
+    bottom: 0;
+    margin: 0 0 30px 64px;
     z-index: 3;
-    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__subtitle {
+    margin: 0 0 30px 32px;
+    font-weight: normal;
   }
+}
+
+@media screen and (max-width: 460px) {
+  .header__subtitle {
+    max-width: 300px;
+  }
+}
