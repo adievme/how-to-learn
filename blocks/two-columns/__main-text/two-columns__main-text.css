@@ -2,7 +2,14 @@
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    min-width: 784px;
-    flex-basis: 80%;
-    margin-top: 0;
+    margin: 0;
+    padding-left: 60px;
+    width: 80%;
+}
+
+@media screen and (max-width: 1024px) {
+  .two-columns__main-text {
+    width: 100%;
+    padding: 0;
   }
+}

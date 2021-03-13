@@ -13,5 +13,6 @@
     .header__square-pic {
       width: 100%;
       top: 64px;
+      min-height: 800px;
     }
   }

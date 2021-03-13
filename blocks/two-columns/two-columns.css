@@ -2,6 +2,13 @@
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top:0;
-    width:80%;
+    margin: 0 64px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .two-columns {
+    flex-direction: column;
+    margin: 0 32px;
   }
+}
